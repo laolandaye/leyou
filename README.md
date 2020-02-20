@@ -7,9 +7,11 @@
 ​	nginx.conf:  win下 nginx 访问配置
 
 ```tex
-manage.leyou.com
+80 manage.leyou.com
+	 http://127.0.0.1:9001
 
-api.leyou.com
+80 api.leyou.com
+	http://127.0.0.1:10010
 	/api/upload: 
 	/: 指向网管地址
 	
